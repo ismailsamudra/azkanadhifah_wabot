@@ -375,12 +375,12 @@ server.listen(port, function() {
   console.log('App running on Port : ' + port);
 });
 // /*Interval*/
-let cek_server = base_url+"whatsapp/auth_broadcast"; 
-setInterval(function() {
-  axios
-  .get(cek_server);
-  // console.log(cek_server+' = is ok 200');
-},1000);
+// let cek_server = base_url+"whatsapp/auth_broadcast"; 
+// setInterval(function() {
+//   axios
+//   .get(cek_server);
+//   // console.log(cek_server+' = is ok 200');
+// },1000);
 //#############################################
 function cek_ready(res){
   if(status == "NOT READY"){
